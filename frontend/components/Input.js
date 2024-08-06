@@ -33,7 +33,8 @@ STEP 6:
   We need to add an extra prop to the <input /> element like so: value={inputValue}
 */
 
-import React from 'react'; /* STEP 0 */
+// eslint-disable-next-line no-unused-vars
+import React, { useState }from 'react'; /* STEP 0 */
 
 export default function Input() {
   /* STEP 1 */
